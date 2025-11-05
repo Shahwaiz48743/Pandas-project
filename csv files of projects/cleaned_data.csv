@@ -1,0 +1,8 @@
+customerid,name,gender,age,join_date,country,salary
+1.0,ali,male,25.0,2021-01-05,pakistan,50000.0
+2.0,ayesha,female,30.0,,pakistan,52000.0
+2.0,ayesha,female,30.0,,pakistan,52000.0
+3.0,shahwaiz,male,28.0,,pakistan,45000.0
+4.0,ahmed,female,22.0,,pakistan,52000.0
+5.0,sara,male,27.0,2021-07-15,india,60000.0
+2.5,ahmed,male,36.0,2021-07-15,india,63500.0

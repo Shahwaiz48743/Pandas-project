@@ -1,0 +1,27 @@
+DATA CLEANING SUMMARY
+=====================
+
+initial_shape:
+(7, 7)
+
+initial_null_counts:
+{'CustomerID': 1, 'Name': 1, 'Gender': 1, 'Age': 1, 'Join_Date': 1, 'Country': 1, 'Salary': 2}
+
+removed_duplicates:
+0
+
+dropped_columns_due_to_missing:
+[]
+
+filled_columns:
+[('customerid', 'median', 2), ('age', 'median', 28), ('salary', 'median', 52000), ('name', 'mode_or_unknown', '  Ahmed'), ('gender', 'mode_or_unknown', ' male'), ('join_date', 'mode_or_unknown', '05/02/2021'), ('country', 'mode_or_unknown', 'Pakistan')]
+
+outlier_summary:
+{'customerid': {'lower_cap': -0.25, 'upper_cap': 5.75, 'capped_count': 0}, 'age': {'lower_cap': 20.0, 'upper_cap': 36.0, 'capped_count': 1}, 'salary': {'lower_cap': 43500.0, 'upper_cap': 63500.0, 'capped_count': 1}}
+
+final_shape:
+(7, 7)
+
+final_null_counts:
+{'customerid': 0, 'name': 0, 'gender': 0, 'age': 0, 'join_date': 4, 'country': 0, 'salary': 0}
+
